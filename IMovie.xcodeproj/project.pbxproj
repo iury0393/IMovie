@@ -51,10 +51,8 @@
 		8AA641202915852B00863A46 /* IMovie */ = {
 			isa = PBXGroup;
 			children = (
-				8AA641212915852B00863A46 /* IMovieApp.swift */,
-				8AA641232915852B00863A46 /* ContentView.swift */,
-				8AA641252915852C00863A46 /* Assets.xcassets */,
-				8AA641272915852C00863A46 /* Preview Content */,
+				8AA641302915854100863A46 /* Screens */,
+				8AA6412F2915853600863A46 /* Utils */,
 			);
 			path = IMovie;
 			sourceTree = "<group>";
@@ -65,6 +63,32 @@
 				8AA641282915852C00863A46 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AA6412F2915853600863A46 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8AA641252915852C00863A46 /* Assets.xcassets */,
+				8AA641272915852C00863A46 /* Preview Content */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8AA641302915854100863A46 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8AA641312915854A00863A46 /* Views */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8AA641312915854A00863A46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AA641212915852B00863A46 /* IMovieApp.swift */,
+				8AA641232915852B00863A46 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
